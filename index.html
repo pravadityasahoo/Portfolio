@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</head>
+
+<body style="background-image: url('./background.jpg'); background-size: cover; background-attachment: fixed;">
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Content</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+
+          <button type="button" class="btn btn-success">Hire Me</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Slide -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./s1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./s2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./s3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- About Me -->
+  <h2 style="text-align: center;">About Me</h2>
+  <div class="text-center">
+    <img src="./profile.jpg" class="rounded" style="height: 200px;" alt="...">
+    <p>Hey, I am <span><b>Pravaditya Sahoo</b></span>.I belongs from Bhubaneswar .Basically My schooling from SSVM
+      Anugul,
+      Now I am pursuing B Tech Computer Science Engineering from Gandhi Institue For technology(GIFT) Bhubaneswar.
+
+    </p>
+  </div>
+  <!-- card -->
+  <h2 style="text-align: center;">Ours Services</h2>
+  <div class="card-group">
+    <div class="card">
+      <img src="./h.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HTML</h5>
+        <p class="card-text">
+          HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For
+          example, content could
+          be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./c1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CSS</h5>
+        <p class="card-text">Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of
+          a document written in HTML or XML.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./j1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Javascript</h5>
+        <p class="card-text"> Javascript is used by programmers across the world to create
+          dynamic and interactive web content like applications and browsers.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+  <!-- Any Ques -->
+  <div class="container" style="background-color: rgb(12, 231, 158);">
+    <div class="row">
+      <div class="col-6">
+        <h2 style="text-align: center;"><b><u>Any Queries</u></b></h2>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"><b>Name</b></label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name">
+          <label for="exampleFormControlInput1" class="form-label"><b>Email address</b></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"><b>Message</b></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type here...."
+            rows="3"></textarea>
+          <button type="button" class="btn btn-success" style="margin-top: 10px;">Send Message</button>
+        </div>
+
+
+      </div>
+      <div class="col-6">
+        <h2 style="text-align: center; "><b><u>Address</u></b></h2>
+        <p style="text-align: center; margin-top: 60px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Gandhi Institue For technology,{GIFT}</p>
+        <p style="text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Gangapada,Khorda,Bhubaneswar..</p>
+        <p style="text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">PinCode: 752008</p>
+
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer>
+<div class=" text-center py-3" style="margin-top: 30px;">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+<div class="footer-copyright text-center py-3" style="margin-bottom: 10pxs;">© 2020 Copyright:
+  <a href="/" style="text-decoration: none; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Portfolio.com</a>
+</div>
+  </footer>
+</body>
+
+</html>
